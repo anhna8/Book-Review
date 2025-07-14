@@ -12,7 +12,7 @@ const NewPost = () => {
         content: '',
         category: '',
         author: '',
-        publishDate: ''
+        startDate: ''
     }
   })
 
@@ -46,15 +46,18 @@ const NewPost = () => {
   }
 
   const categories = [
-    'Tecnología',
-    'Programación',
-    'Diseño',
-    'Marketing',
-    'Negocios',
-    'Educación',
-    'Estilo de vida',
-    'Salud',
-    'Viajes'
+    'Ciencia Ficcion',
+      'Fantasia',
+      'Terror',
+      'Romance',
+      'Thriller',
+      'Novela Histórica',
+      'Aventuras',
+      'Poesía',
+      'Misterio',
+      'Juvenil',
+      'No Ficción',
+      'Biografía'
   ]
 
   return (

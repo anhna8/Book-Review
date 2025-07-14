@@ -24,7 +24,7 @@ export const postSchema = yup.object({
       'Misterio',
       'Juvenil',
       'No Ficción',
-      'Biografía',
+      'Biografía'
     ], 'La categoría debe ser una opción válida'),
   author: yup
     .string()
